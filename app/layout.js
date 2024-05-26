@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="p-6">
       <body className={inter.className}>
         <nav>Home | About</nav>
+        <hr />
         {children}
         <footer className="mt-10">This is footer</footer>
       </body>

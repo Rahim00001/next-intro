@@ -1,9 +1,10 @@
-import React from "react";
 
-export default function Mission() {
+const Mission = () => {
     return (
-        <main className="mt-10">
-            <div>This is mission page</div>
-        </main>
-    )
-}
+        <div className="mt-10">
+            <h>This is mission page</h>
+        </div>
+    );
+};
+
+export default Mission;
